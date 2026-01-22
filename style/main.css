@@ -9,3 +9,44 @@
 @tailwind utilities;
 
 /* Custom CSS */
+
+html {
+  scroll-behavior: smooth; /* this enables smooth scrolling between internal links */
+}
+
+
+
+@layer components {
+    /* Text Colour Utilities */
+    .text-primary   { color: var(--primary); }
+    .text-secondary { color: var(--secondary); }
+    .text-dark      { color: var(--dark); }
+    .text-medium    { color: var(--medium); }
+    .text-light     { color: var(--light); }
+    .text-v-light   { color: var(--v-light); }
+    .text-featured  { color: var(--featured); }
+    .text-accent    { color: var(--accent); }
+
+    /* Background Colour Utilities */
+    .bg-primary   { background-color: var(--primary); }
+    .bg-secondary { background-color: var(--secondary); }
+    .bg-dark      { background-color: var(--dark); }
+    .bg-medium    { background-color: var(--medium); }
+    .bg-light     { background-color: var(--light); }
+    .bg-v-light   { background-color: var(--v-light); }
+    .bg-featured  { background-color: var(--featured); }
+    .bg-accent    { background-color: var(--accent); }
+
+
+    /* Border Colour Utilities */
+    .border-primary   { border-color: var(--primary); }
+    .border-secondary { border-color: var(--secondary); }
+    .border-dark      { border-color: var(--dark); }
+    .border-medium    { border-color: var(--medium); }
+    .border-light     { border-color: var(--light); }
+    .border-v-light   { border-color: var(--v-light); }
+    .border-featured  { border-color: var(--featured); }
+    .border-accent    { border-color: var(--accent); }
+
+
+}
