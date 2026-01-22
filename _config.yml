@@ -1,8 +1,8 @@
 url: "" # add client's full domain between the quotes here - ensure to include https:// and ensure there is NO forwardslash at the end. eg "https://example.com"
 
     
-exclude:
-  - component-library/
+# exclude:
+#   - component-library/
 
 include:
   - _cloudcannon
