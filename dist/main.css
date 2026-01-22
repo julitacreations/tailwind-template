@@ -560,6 +560,12 @@ video {
   display: none;
 }
 
+/* Text Colour Utilities */
+
+/* Background Colour Utilities */
+
+/* Border Colour Utilities */
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -570,18 +576,6 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
-}
-
-.mr-2 {
-  margin-right: 0.5rem;
 }
 
 .block {
@@ -600,14 +594,6 @@ video {
   display: none !important;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.w-\[65vw\] {
-  width: 65vw;
-}
-
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -620,20 +606,8 @@ video {
   align-items: flex-start;
 }
 
-.items-center {
-  align-items: center;
-}
-
 .justify-start {
   justify-content: flex-start;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.justify-items-center {
-  justify-items: center;
 }
 
 .gap-6 {
@@ -645,15 +619,16 @@ video {
   padding-bottom: 3rem;
 }
 
-.text-center {
-  text-align: center;
-}
-
 .uppercase {
   text-transform: uppercase;
 }
 
 /* Custom CSS */
+
+html {
+  scroll-behavior: smooth;
+  /* this enables smooth scrolling between internal links */
+}
 
 @media (min-width: 768px) {
   .md\:mb-8 {
