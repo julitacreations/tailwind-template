@@ -1,0 +1,31 @@
+<header class="flex justify-between">
+
+  <div class="grow flex items-center gap-8">
+
+    {% if include.logo_url %}
+      <a href="{{ include.logo_url }}">
+        <h2 class="logo inline-block">
+          {{ include.logo_text }}
+        </h2>
+      </a>
+    {% endif %}
+
+    {% if include.links %}
+      {% for link in include.links %}
+        <a href="{{ link.url }}">
+          {{ link.text }}
+        </a>
+      {% endfor %}
+    {% endif %}
+
+  </div>
+
+  <nav class="grow text-right">
+    {% if include.cta_url and include.cta_text %}
+      <a href="{{ include.cta_url }}" class="{{ include.cta_class }}">
+        {{ include.cta_text }}
+      </a>
+    {% endif %}
+  </nav>
+
+</header>

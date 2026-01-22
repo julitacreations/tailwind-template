@@ -598,6 +598,10 @@ video {
   display: block;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
@@ -616,6 +620,10 @@ video {
 
 .w-\[65vw\] {
   width: 65vw;
+}
+
+.grow {
+  flex-grow: 1;
 }
 
 .grid-cols-1 {
@@ -642,12 +650,20 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .justify-items-center {
   justify-items: center;
 }
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .p-20 {
@@ -665,6 +681,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .text-4xl {
